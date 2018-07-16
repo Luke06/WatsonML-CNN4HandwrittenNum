@@ -6,7 +6,10 @@
 This tutorial shows IBM Watson Studio framework capabilities to load training data to the IBM Cloud Object Storage (COS) area, create a convolutional neural network (CNN) model that is build and trained with IBM Watson Machine Learning kernel. I´ll show how the model can be exported & integrated in iOS and can be accessed in code (Objective-C in this Tutorial) via the new CoreML and Vision Api introduced by apple for iOS11. 
 I trained the model on the MNIST dataset in order to create an app that can recognize handwritten digits.
 The iphone application used in this tutorial is from [Eridy Lukau](https://github.com/boaerosuke) accessible at this [URL](https://github.com/boaerosuke/digitrecognition_ios) 
+
+
 ![alt text](images/ibm_360x360.jpg "IBM logo")
+
 
 ##Introduction
 Watson Studio provides you with the environment and tools to solve your business problems by collaboratively working with data. You can choose the tools you need to analyze and visualize data, to cleanse and shape data, to ingest streaming data, or to create, train, and deploy machine learning models.
@@ -31,12 +34,18 @@ Finally use the application to test your own "finger written" numbers !
 ###1.Load, Store, Organize your data
 First, to access Watson Studio environment, you need your IBM ID. 
 Visit [IBM Dataplatform](http://dataplatform.ibm.com) and create your free account. Most of the cloud and cognitive services are for free, so you can learn, develop your models and deploy them for productive use.
+
+
 ![alt text](images/Watson homepage.png "IBM homepage")
+
+
 For this tutirial I used the [MNIST](https://en.wikipedia.org/wiki/MNIST_database) computer vision data set to train our deep learning model to recognize handwritten digits.
 The Data set from MNIST can be found [here] (https://github.com/LZRVC/mnist-with-keras-and-watson-studio)
 Select the file called mnist-tf-dataset.zip, download it. (see below the content of that file)
 
+
 ![alt text](images/MNIST1.png "COS")
+
 
 In order to load your training data you must create a Cloud Object Storage instance, to do so process as follow :
 
@@ -45,21 +54,27 @@ Click on the Services item and choose Data services
 
 ![alt text](images/COS.png "COS")
 
+
 From there add/create a new Cloud Object Storage instance
 
 ![alt text](images/COS 1.png "COS2")
 
 Add 3 Buckets to host your traing, test and validation data
 
+
 ![alt text](images/COS3.png "COS")
+
 
 ###2.Model the Artificial Neural Network
 
 Using the graphical flow editor in Watson Studio (see below) you can create a new model 
 
+
 ![alt text](images/ModelFlow.png "COS")
 
+
 Create one with the appropriate options as shown hereafter :
+
 
 ![alt text](images/ModelFlow1.png "COS")
 
