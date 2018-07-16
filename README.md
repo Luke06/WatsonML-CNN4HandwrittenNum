@@ -31,6 +31,7 @@ In this first part dedicated to dummies data scientist, we will use Watson Studi
 
 Finally use the application to test your own "finger written" numbers ! 
 
+
 ###1.Load, Store, Organize your data
 First, to access Watson Studio environment, you need your IBM ID. 
 Visit [IBM Dataplatform](http://dataplatform.ibm.com) and create your free account. Most of the cloud and cognitive services are for free, so you can learn, develop your models and deploy them for productive use.
