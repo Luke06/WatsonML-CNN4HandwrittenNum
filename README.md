@@ -102,14 +102,24 @@ In the details side panel, in the DATA section, create a connection to the Cloud
 0. In the Data Connections drop-down menu, select the Cloud Object Storage connection that you just created.
 0. In the Buckets drop-down menu, select the training, test an validata data bucket you created before at step 1.
 
+
 ![alt text](images/ModelFlow6.png "COS")
+
+
+Alternatively you can use another simplier CNN (convolutional Neural network) using only one convolution.
+To do so process as above but use the file called MNIST-SINGLE-CNN.nnd
+
+
+![alt text](images/SINGLE-CNN.png "COS")
 
 
 ## 3-Run it against the trainign data
 
 Now we need to publish our newly created model for training
 
+
 ![alt text](images/ModelFlow5.png "COS")
+
 
 This creates a New Experiment in your Watson Project
 
