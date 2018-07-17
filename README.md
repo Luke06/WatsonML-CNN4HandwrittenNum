@@ -82,9 +82,11 @@ you can assemble your machine learning model or neural network design by draggin
 
 ![alt text](images/ModelFlow3.png "COS")
 
+
 From the toolbar select the import icon and select the file called ModelMNIST.nnd
 
 As a result you should see the following flow in the graphical editor
+
 
 ![alt text](images/ModelFlow4.png "COS")
 
@@ -104,8 +106,15 @@ In the details side panel, in the DATA section, create a connection to the Cloud
 ![alt text](images/ModelFlow6.png "COS")
 
 
-Alternatively you can use another simpler CNN (convolutional Neural network) using only one convolution.
-To do so process as above but use the file called MNIST-SINGLE-CNN.nnd
+Alternatively you can use one of the predefined models available in Watston Studio, to do so Select "From Sample" when you create your model
+and choose the appropriate model in our case select Single Convolution layer on MNIST
+as shown below
+
+
+![alt text](images/ModelSample.png "COS")
+
+
+Therefore proceed as earlier by editing the image data porperties to point to your data set for the training and 
 
 
 ![alt text](images/SINGLE-CNN.png "COS")
