@@ -11,7 +11,7 @@ The iphone application used in this tutorial is from [Eridy Lukau](https://githu
 ![alt text](images/ibm_360x360.jpg "IBM logo")
 
 
-##Introduction
+## Introduction
 Watson Studio provides you with the environment and tools to solve your business problems by collaboratively working with data. You can choose the tools you need to analyze and visualize data, to cleanse and shape data, to ingest streaming data, or to create, train, and deploy machine learning models.
 
 This illustration shows how the architecture of Watson Studio is centered around the project. A project is where you organize your resources and work with data.
@@ -32,7 +32,7 @@ In this first part dedicated to dummies data scientist, we will use Watson Studi
 Finally use the application to test your own "finger written" numbers ! 
 
 
-##1-Load, Store, Organize your data
+## 1-Load, Store, Organize your data
 First, to access Watson Studio environment, you need your IBM ID. 
 Visit [IBM Dataplatform](http://dataplatform.ibm.com) and create your free account. Most of the cloud and cognitive services are for free, so you can learn, develop your models and deploy them for productive use.
 
@@ -66,7 +66,7 @@ Add 3 Buckets to host your traing, test and validation data
 ![alt text](images/COS3.png "COS")
 
 
-##2-Model the Artificial Neural Network
+## 2-Model the Artificial Neural Network
 
 Using the graphical flow editor in Watson Studio (see below) you can create a new model 
 
@@ -105,7 +105,7 @@ In the details side panel, in the DATA section, create a connection to the Cloud
 ![alt text](images/ModelFlow6.png "COS")
 
 
-##3-Run it against the trainign data
+## 3-Run it against the trainign data
 
 Now we need to publish our newly created model for training
 
@@ -113,7 +113,7 @@ Now we need to publish our newly created model for training
 
 This creates a New Experiment in your Watson Project
 
-##4-Score the created model using test/validation data
+## 4-Score the created model using test/validation data
 
 Train the model using experiment builder
 From the home page of your project create a new experiment
@@ -144,7 +144,7 @@ In the Assets page of your project in Watson Studio, click the new model in the 
 Click the Deployments tab and then click Add Deployment.
 
 
-##5-Deploy the model
+## 5-Deploy the model
 
 From you project home click on the name of the model you just created under the model section
 Clikc the Deployments tab and then click Add Deployment.
@@ -152,7 +152,7 @@ Select Virtual as deployment type and CoreML as format as the goal of thi tutori
 
 ![alt text](images/Deploy.png "COS")
 
-##6-Export it as a CoreML Apple iOS model
+## 6-Export it as a CoreML Apple iOS model
 
 Now that the model is deployed and running in the Watson Machine Learning section we are going to export it as something consumable on the Apple devices : see [CoreML](https://developer.apple.com/documentation/coreml) for more details
 
@@ -165,7 +165,7 @@ From there select the implementation tab and download the CoreML model
 ![alt text](images/CoreML.png "COS")
 
 
-##7-Embed it into an iphone application
+## 7-Embed it into an iphone application
 
 Now that we have a trained model compatible with Apple's CoreML framework let's play with it customzing the iphone applicaton develped by [Eridy Lukau](https://github.com/boaerosuke) accessible at this [URL](https://github.com/boaerosuke/digitrecognition_ios) 
 Download the code and using Xcode make the following changes :
@@ -222,7 +222,7 @@ Here is how it looks like, you can see on the screenshot hereafter the app show 
 ![alt text](images/App1.png "COS")     ![alt text](images/App2.png "COS")
 
 
-##Conclusion
+## Conclusion
 
 Enjoy it and start to understand the neural network model provided as sample to be able to update it as significant improvements are possible.
 
