@@ -57,7 +57,9 @@ Click on the Services item and choose Data services
 
 From there add/create a new Cloud Object Storage instance
 
+
 ![alt text](images/COS1.png "COS2")
+
 
 Add 3 Buckets to host your traing, test and validation data
 
