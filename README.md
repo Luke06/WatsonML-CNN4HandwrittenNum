@@ -37,8 +37,7 @@ First, to access Watson Studio environment, you need your IBM ID.
 Visit [IBM Dataplatform](http://dataplatform.ibm.com) and create your free account. Most of the cloud and cognitive services are for free, so you can learn, develop your models and deploy them for productive use.
 
 
-![alt text](images/Watson homepage.png "IBM homepage")
-
+![alt text](images/Watson-Homepage.png "IBM homepage")
 
 For this tutirial I used the [MNIST](https://en.wikipedia.org/wiki/MNIST_database) computer vision data set to train our deep learning model to recognize handwritten digits.
 The Data set from MNIST can be found [here] (https://github.com/LZRVC/mnist-with-keras-and-watson-studio)
@@ -58,7 +57,7 @@ Click on the Services item and choose Data services
 
 From there add/create a new Cloud Object Storage instance
 
-![alt text](images/COS 1.png "COS2")
+![alt text](images/COS1.png "COS2")
 
 Add 3 Buckets to host your traing, test and validation data
 
