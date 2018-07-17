@@ -8,9 +8,6 @@ I trained the model on the MNIST dataset in order to create an app that can reco
 The iphone application used in this tutorial is from [Eridy Lukau](https://github.com/boaerosuke) accessible at this [URL](https://github.com/boaerosuke/digitrecognition_ios) 
 
 
-![alt text](images/ibm_360x360.jpg "IBM logo")
-
-
 ## Introduction
 Watson Studio provides you with the environment and tools to solve your business problems by collaboratively working with data. You can choose the tools you need to analyze and visualize data, to cleanse and shape data, to ingest streaming data, or to create, train, and deploy machine learning models.
 
