@@ -147,14 +147,23 @@ Select "1/2 x NVIDIA Tesla K80 (1 GPU)" for the compute plan.
 Select "none" for the hyperparameter optimization method.
 Click Create and run.
 
+
 ![alt text](images/Training1.png "COS")
+
 
 Training can take sometimes depending on your watson Machine Learning instance configuration.
 
-![alt text](images/TrainingRes.png "COS")
+By looking at the training results you can monitor the various KPIs of your model and update it if required to maximize its predictive scoring.
+
+
+![alt text](images/ModelMonitor.png "COS")
 
 
 Once done, in the Training Runs tab of experiment builder, under the ACTIONS menu, select "Save model". Then give the model a name and click Save. This stores the model in the Watson Machine Learning repository.
+
+
+![alt text](images/TrainingRes.png "COS")
+
 
 In the Assets page of your project in Watson Studio, click the new model in the Models section.
 
