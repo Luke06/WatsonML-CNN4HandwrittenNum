@@ -107,7 +107,7 @@ In the details side panel, in the DATA section, create a connection to the Cloud
 ![alt text](images/ModelFlow6.png "COS")
 
 
-Alternatively you can use another simplier CNN (convolutional Neural network) using only one convolution.
+Alternatively you can use another simpler CNN (convolutional Neural network) using only one convolution.
 To do so process as above but use the file called MNIST-SINGLE-CNN.nnd
 
 
