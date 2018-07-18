@@ -12,11 +12,16 @@ The iphone application used in this tutorial is from [Eridy Lukau](https://githu
 Watson Studio provides you with the environment and tools to solve your business problems by collaboratively working with data. You can choose the tools you need to analyze and visualize data, to cleanse and shape data, to ingest streaming data, or to create, train, and deploy machine learning models.
 
 This illustration shows how the architecture of Watson Studio is centered around the project. A project is where you organize your resources and work with data.
-![alt text](images/Watson Studio.png "IBM WS")
+
+
+![alt text](images/Watson-Studio.png "IBM WS")
+
+
 IBM Watson Studio is a collaborative environment with end to end AI tools that you and your team can use to collect and prepare training data, and to design, train, and deploy machine learning models.
 
+
 Ranging from graphical tools you can use to build a model in minutes, to tools that automate running thousands of experiment training runs and hyperparameter optimization, Watson Studio AI tools support popular frameworks, including: TensorFlow, Caffe, PyTorch, and Keras.
-In this first part dedicated to dummies data scientist, we will use Watson Studio graphical tools to :
+In this first part dedicated to non pure data scientists, we will use Watson Studio graphical tools to :
 
 1. Load & store the training data
 0. Model the Artificial Neural Network
@@ -25,6 +30,11 @@ In this first part dedicated to dummies data scientist, we will use Watson Studi
 0. Deploy the model
 0. Export it as a CoreML Apple iOS model
 0. Embed it into an iphone application
+
+
+
+![alt text](images/MainArchi.png "IBM homepage")
+
 
 Finally use the application to test your own "finger written" numbers ! 
 
@@ -193,10 +203,18 @@ From there select the implementation tab and download the CoreML model
 
 ## 7-Embed it into an iphone application
 
-Now that we have a trained model compatible with Apple's CoreML framework let's play with it customzing the iphone applicaton develped by [Eridy Lukau](https://github.com/boaerosuke) accessible at this [URL](https://github.com/boaerosuke/digitrecognition_ios) 
-Download the code and using Xcode make the following changes :
 
-First you need to replace the original file called keras_mnist_cnn.mlmodel by the one generated at step 6.
+In this tutorial I assume that you have a Mac Laptop and you already have installed the Appple applciation developement tools such as [Xcode](https://developer.apple.com/xcode/) required in this section to build & test the application.
+Please make sure you also registered you AppleID as developer as it will be required to build the mobile applicaiton.
+
+
+Now that we have a trained model compatible with Apple's CoreML framework let's play with it customzing the iphone applicaton develped by [Eridy Lukau](https://github.com/boaerosuke) accessible at this [URL](https://github.com/boaerosuke/digitrecognition_ios) 
+
+Create a folder for this digit recognizer app then download and expand in this directory the entire project components/files.
+
+Open the digitrecognizer project file (called DigitRecognizer.xcodeproj) using XCode and make the following changes :
+
+First you need to replace the original file called keras_mnist_cnn.mlmodel in the project directory by the one generated at step 6.
 The other modifcation to be made concern the application code itself regarding the ouptut of the model prediction invocation
 in the file called ViewController.m at the following line (embedded wthin JLC comment tag) as followed
 
