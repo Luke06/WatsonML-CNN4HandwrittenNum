@@ -75,7 +75,7 @@ For larger models, more granularity is needed, since the Watson Machine Learning
 ![alt text](images/COS3.png "COS")
 
 
-Then add the 3 trianing files into the training bucket
+Then add the 3 training files into the training bucket
 the model & results bucket will be used by WML to store models & log results.
 
 
