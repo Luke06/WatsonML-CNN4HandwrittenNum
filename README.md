@@ -68,10 +68,18 @@ From there add/create a new Cloud Object Storage instance
 ![alt text](images/COS1.png "COS2")
 
 
-Add 3 Buckets to host your traing, test and validation data
+The next step is to create buckets in your Cloud Object Storage (COS) and upload your data. Recommendation is to create two buckets (you can also call them containers for your data objects), one for the training data itself and one for the models and results. 
+For larger models, more granularity is needed, since the Watson Machine Learning (WML) will load the data from the training data bucket, so you want to avoid unnecessary waiting time and memory consumption for the data which is not used in your training runs.
 
 
 ![alt text](images/COS3.png "COS")
+
+
+Then add the 3 trianing files into the training bucket
+the model & results bucket will be used by WML to store models & log results.
+
+
+![alt text](images/BucketTraing.png "COS")
 
 
 ## 2-Model the Artificial Neural Network
