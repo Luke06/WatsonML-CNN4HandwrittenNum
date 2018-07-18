@@ -281,3 +281,13 @@ Here is how it looks like, you can see on the screenshot hereafter the app show 
 Enjoy it and start to understand the neural network model provided as sample to be able to update it as significant improvements are possible.
 
 Rendez-vous in part 2 of this tutorial for the neural network design part dedicated for Data scientists.
+
+Please feel free to share this tutorial and provide me with your remarks, questions, I would appreciate
+
+
+[LinkedIn](http://fr.linkedin.com/pub/jean-luc-collet/9/541/740)
+
+Thanks !
+
+Jean-Luc Collet
+July 11, 2018
