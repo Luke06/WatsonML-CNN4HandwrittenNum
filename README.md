@@ -214,7 +214,9 @@ Create a folder for this digit recognizer app then download and expand in this d
 
 Open the digitrecognizer project file (called DigitRecognizer.xcodeproj) using XCode and make the following changes :
 
-First you need to replace the original file called keras_mnist_cnn.mlmodel in the project directory by the one generated at step 6.
+First you need to replace project's model file called keras_mnist_cnn.mlmodel in the project directory by the one generated at step 6.
+I am asking you to do this as when you add a .mlmodel file to your Xcode project, Xcode generates a class for the model with the same base name as the .mlmodel file. So to minimize code modifications I prefer you to use the same model name. 
+
 The other modifcation to be made concern the application code itself regarding the ouptut of the model prediction invocation
 in the file called ViewController.m at the following line (embedded wthin JLC comment tag) as followed
 
