@@ -212,7 +212,7 @@ look at the containt of this file in a text editor of your choice if you want to
 ![alt text](images/NumbersML-3.png "COS")
 
 
-Select all the containt of this file, copy it into the clipboard and then from the Test Tab of your deployed Web Service copy it into the from and click on the predict button to get the model prediction results as shown hereafter
+Select all the containt of this file, copy it into the clipboard and then from the Test Tab of your deployed Web Service paste it into the from and click on the predict button to get the model prediction results as shown hereafter
 
 ![alt text](images/NumbersML-4.png "COS")
 
