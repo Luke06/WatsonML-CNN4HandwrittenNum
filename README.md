@@ -212,16 +212,16 @@ look at the containt of this file in a text editor of your choice if you want to
 ![alt text](images/NumbersML-3.png "COS")
 
 
-Select all the containt of this file, copy it into the clipboard and then from the Test Tab of your deployed Web Service paste it into the from and click on the predict button to get the model prediction results as shown hereafter
+Click on one of the TestNumber link provided and select all the containt, copy it into the clipboard and then from the Test Tab of your deployed Web Service paste it into the form and click on the predict button to get the model prediction results as shown hereafter
 
 ![alt text](images/NumbersML-4.png "COS")
 
-As you can for all number table you get the associated prediction confidence in the from of a percentage
+As you can see from the values table you get the associated prediction confidence for each number (default index of the table) in the from of a percentage
 and here we have a 1 at 99,94%
 
-Now you can build your own application to capture the desired numbers from any device and pass it to your deployed Handwritten prediction model to get the associated prediction.
+Now you can build your own application to capture the desired numbers from any device and pass it to your deployed Handwritten prediction model Web Service to get the associated prediction.
 
-Finally if you want to deploy it on an iOS device follow the script hereafter otherwise you're successfully down.
+Finally if you want to deploy it on an iOS device follow the script hereafter otherwise you're successfully done.
 
 
 
