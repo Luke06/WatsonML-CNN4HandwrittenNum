@@ -188,11 +188,48 @@ In the Assets page of your project in Watson Studio, click the new model in the 
 Click the Deployments tab and then click Add Deployment.
 
 
-## 5-Deploy the model
+## 5-Deploy the model as a Web Service
+
+if you do not intent to export your model as a CoreML on iOS, then you can perform this step to test and invoke your model's REST API with a sample image payload.
+
+To do so, first from your project home click the name of the model you just created under the model section
+Click the Deployments tab and then click Add Deployment.
+Enter a name for you deployment model such as NumbersML as shown in the screen capture below
+
+![alt text](images/NumbersML-1.png "COS")
+
+Once created you will see under the implementation tab all details related to the depoyed model's Web Service, such as end point, authorization, etc...
+thanks to IBM Watson Studio there is a set of code snippets provided in different languages to invoke the model's Web Service (Java, Javascript, python,...).
+See screen capture below
+
+![alt text](images/NumbersML-2.png "COS")
+
+Finally you can go to the Test Tab to easily invoke and validate your deployed model web service.
+Download a sample JSON sample number payload (part of the github repository called [TestNumber1.json]() or [TestNumber5.json]() containing a sample valid image matrix (?,28,28,1) that you can use as primary sample to test your API.
+look at the containt of this file in a text editor of your choice if you want to modify it or just understand the structure.
+
+
+![alt text](images/NumbersML-3.png "COS")
+
+
+Select all the containt of this file, copy it into the clipboard and then from the Test Tab of your deployed Web Service copy it into the from and click on the predict button to get the model prediction results as shown hereafter
+
+![alt text](images/NumbersML-4.png "COS")
+
+As you can for all number table you get the associated prediction confidence in the from of a percentage
+and here we have a 1 at 99,94%
+
+Now you can build your own application to capture the desired numbers from any device and pass it to your deployed Handwritten prediction model to get the associated prediction.
+
+Finally if you want to deploy it on an iOS device follow the script hereafter otherwise you're successfully down.
+
+
+
+## 5bis-Deploy the model as a Virtual Service
 
 From you project home click on the name of the model you just created under the model section
-Clikc the Deployments tab and then click Add Deployment.
-Select Virtual as deployment type and CoreML as format as the goal of thi tutorial is to deploy our model onto an Iphone application.
+Click the Deployments tab and then click Add Deployment.
+Select Virtual as deployment type and CoreML as format as the goal of this part is to deploy our model onto an Iphone application.
 
 ![alt text](images/Deploy.png "COS")
 
