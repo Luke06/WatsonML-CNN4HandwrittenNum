@@ -205,7 +205,7 @@ See screen capture below
 ![alt text](images/NumbersML-2.png "COS")
 
 Finally you can go to the Test Tab to easily invoke and validate your deployed model web service.
-Download a sample JSON sample number payload (part of the github repository called [TestNumber1.json]() or [TestNumber5.json]() containing a sample valid image matrix (?,28,28,1) that you can use as primary sample to test your API.
+Download a sample JSON sample number payload (part of the github repository called [TestNumber1.json](https://github.com/Luke06/WatsonML-CNN4HandwrittenNum/blob/master/TestNumber1.json) or [TestNumber5.json](https://github.com/Luke06/WatsonML-CNN4HandwrittenNum/blob/master/TestNumber5.json) containing a sample valid image matrix (?,28,28,1) that you can use as primary sample to test your API.
 look at the containt of this file in a text editor of your choice if you want to modify it or just understand the structure.
 
 
